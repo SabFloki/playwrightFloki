@@ -161,6 +161,10 @@ test('Intercept network requests', async ({ page }) => {
 });
 ```
 
+## Debug commandlines
+PWDEBUG=1 npm test
+DEBUG="pw:api" npm test
+
 ## Resources
 
 * [Documentation](https://playwright.dev/docs/intro)
